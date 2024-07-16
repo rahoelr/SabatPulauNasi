@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top px-3" data-aos="fade-down">
     <div class="container">
         <a href="/home" class="navbar brand">
-            <img src="{{ asset('img/logo_nav.svg') }}" alt="Logo" />
+            <img src="{{ asset('img/logo_nasi.svg') }}" alt="Logo" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
@@ -24,9 +24,9 @@
                 <li class="nav-item {{($title === "| Article") ? 'active' : ''}}">
                     <a href="/artikel" class="nav-link">Artikel</a>
                 </li>
-                <li class="nav-item {{($title === "| About Us") ? 'active' : ''}}">
+                {{-- <li class="nav-item {{($title === "| About Us") ? 'active' : ''}}">
                     <a href="/tentang_kami" class="nav-link">Tentang Kami</a>
-                </li>
+                </li> --}}
                 <li class="nav-item {{($title === "| Search") ? 'active' : ''}}">
                     <a id="openModalBtn" class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown"
                         style="width: 40px; height:40px">
@@ -123,7 +123,7 @@
 <nav class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top px-3 mb-3" data-aos="fade-down">
     <div class="container">
         <a href="/home" class="navbar brand">
-            <img src="{{ asset('img/logo_auth.svg') }}" alt="Logo" />
+            <img src="{{ asset('img/logo_nasi.svg') }}" alt="Logo" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
@@ -145,9 +145,9 @@
                 <li class="nav-item {{($title === "| Article") ? 'active' : ''}}">
                     <a href="/artikel" class="nav-link">Artikel</a>
                 </li>
-                <li class="nav-item {{($title === "| About Us") ? 'active' : ''}}">
+                {{-- <li class="nav-item {{($title === "| About Us") ? 'active' : ''}}">
                     <a href="/tentang_kami" class="nav-link">Tentang Kami</a>
-                </li>
+                </li> --}}
                 <li class="nav-item {{($title === "| Search") ? 'active' : ''}}">
                     <a id="openModalBtn" class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown"
                         style="width: 40px; height:40px">
@@ -156,12 +156,13 @@
                 </li>
                 <li class="nav-item">
                     @auth
-                    <a href="{{route("logout")}}" class="btn btn-success nav-link px-4 text-white">Log Out</a>
+                    <a href="{{route('logout')}}" class="btn nav-link px-4 text-white" style="background-color: #B0AE5B;">Log Out</a>
                     @endauth
                     @guest
-                    <a href="{{route("login")}}" class="btn btn-success nav-link px-4 text-white">Log In</a>
+                    <a href="{{route('login')}}" class="btn nav-link px-4 text-white" style="background-color: #B0AE5B;">Log In</a>
                     @endguest
                 </li>
+                
             </ul>
         </div>
     </div>

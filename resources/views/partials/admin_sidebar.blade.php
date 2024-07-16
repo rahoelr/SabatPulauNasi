@@ -1,7 +1,7 @@
 <!-- Sidebar -->
 <div class="border-right" id="sidebar-wrapper">
     <div class="sidebar-heading text-center">
-        <img src="{{asset('img/Logo_MBKM.svg')}}" alt="" class="my-4" />
+        <img src="{{asset('img/logo_nasi.svg')}}" alt="" class="my-4" />
     </div>
     <div class="list-group list-group-flush">
         <a href="/db_admin"
@@ -22,9 +22,9 @@
             Usaha</a>
         <a href="/db_admin-article"
             class="list-group-item list-group-item-action dashboard-admin {{($title === "| Article") ? 'active' : ''}}">Artikel</a>
-        <a href="/db_admin-aboutus/1"
+        {{-- <a href="/db_admin-aboutus/1"
             class="list-group-item list-group-item-action dashboard-admin {{($title === "| About Us") ? 'active' : ''}}">Tentang
-            Kami</a>
+            Kami</a> --}}
         <a href="/db_admin-team"
             class="list-group-item list-group-item-action dashboard-admin {{($title === "| Team") ? 'active' : ''}}">Anggota</a>
         <a href="/db_admin-message"

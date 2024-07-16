@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top" data-aos="fade-down">
     <div class="container">
         <a href="/home" class="navbar brand">
-            <img src="{{ asset('img/logo_nav.svg') }}" alt="Logo" />
+            <img src="{{ asset('img/logo_nasi.svg') }}" alt="Logo" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
@@ -31,14 +31,15 @@
                         <img src="{{asset("img/Search.svg")}}" alt=""/>
                     </a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     @auth
-                    <a href="{{route("logout")}}" class="btn btn-success nav-link px-4 text-white">Log Out</a>
+                    <a href="{{route('logout')}}" class="btn nav-link px-4 text-white" style="background-color: #B0AE5B;">Log Out</a>
                     @endauth
                     @guest
-                    <a href="{{route("login")}}" class="btn btn-success nav-link px-4 text-white">Log In</a>
+                    <a href="{{route('login')}}" class="btn nav-link px-4 text-white" style="background-color: #B0AE5B;">Log In</a>
                     @endguest
                 </li>
+                
             </ul>
         </div>
     </div>

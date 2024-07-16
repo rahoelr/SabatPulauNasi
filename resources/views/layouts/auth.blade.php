@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>UMKM Desa Ngargoyoso | Authentication</title>
-    <link rel="shortcut icon" href="{{asset("img/logo_auth.svg")}}" type="image/x-icon">
+    <title>UMKM Sabat Pulau Nasi | Authentication</title>
+    <link rel="shortcut icon" href="{{asset("img/logo_nasi.svg")}}" type="image/x-icon">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link href="{{ asset("template_1/style/main.css") }}" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />

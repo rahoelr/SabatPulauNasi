@@ -1,104 +1,57 @@
-<footer class="text-center text-lg-start text-white" style="background-color: #396051">
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-between p-4" style="background-color: rgba(0, 0, 0, 0.2)">
-        <!-- Left -->
-        <div class="me-5">
-            <span class="text-16">Get connected with us on social networks:</span>
-        </div>
-        <!-- Left -->
+<footer class="bg-body-tertiary text-center">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+        data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+  
+        <!-- Instagram -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="https://www.instagram.com/sabatpulaunasi/"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
 
-        <!-- Right -->
-        <div>
-            <a href="" class="text-white me-4">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="" class="text-white me-4">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="" class="text-white me-4">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </div>
-        <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
-
-    <!-- Section: Links  -->
-    <section class="">
-        <div class="container text-center text-md-start mt-5">
-            <!-- Grid row -->
-            <div class="row mt-3">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                    <!-- Content -->
-                    <h6 class="text-uppercase fw-bold text-16">About</h6>
-                    <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                        style="width: 60px; background-color: #bddd99; height: 2px" />
-                    <p class="text-16" style="color: white">
-                        Website ini bertujuan unutk menampilkan berbagai seluk
-                        beluk tentang Desa Ngargoyoso seperti profil, produk, berita,
-                        dan lain-lain.
-                    </p>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold text-16">Menu</h6>
-                    <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                        style="width: 60px; background-color: #bddd99; height: 2px" />
-                    <p>
-                        <a href="#!" class="text-white text-16">Produk</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-white text-16">Mitra</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-white text-16">Artikel</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-white text-16">Tentang Kami</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold text-16">Contact</h6>
-                    <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                        style="width: 60px; background-color: #bddd99; height: 2px" />
-                    <p class="text-16" style="color: white">
-                        <i class="fas fa-phone mr-3"></i> 083105000088
-                    </p>
-                    <p class="text-16" style="color: white">
-                        <i class="fas fa-envelope mr-3"></i> desa_ngargoyoso@gmail.com
-                    </p>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-4 mx-auto mb-md-0 mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold text-16">Location</h6>
-                    <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                        style="width: 60px; background-color: #bddd99; height: 2px" />
-                    <p class="text-16" style="color: white">
-                        <i class="fas fa-home mr-3"></i> Desa Ngargoyoso, Karanganyar
-                    </p>
-                </div>
-                <!-- Grid column -->
-            </div>
-            <!-- Grid row -->
-        </div>
-    </section>
-    <!-- Section: Links  -->
-
+        <!-- Github -->
+        <a
+          data-mdb-ripple-init
+          class="btn text-white btn-floating m-1"
+          style="background-color: #333333;"
+          href="https://www.tiktok.com/@sabatpulaunasi"
+          role="button"
+          ><i class="fab fa-tiktok"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
     <!-- Copyright -->
-    <div class="text-center p-3 text-16" style="background-color: #396051">
-        © 2024 Copyright:
-        <a class="text-white text-16" href="https://bumdeta.com/">Ngargoyoso.com</a>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-body" href="https://mdbootstrap.com/">sabatpulaunasi.com</a>
     </div>
     <!-- Copyright -->
-</footer>
+  </footer>

@@ -19,15 +19,15 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="/img/landing_page_text.svg" alt="Carousel Image" class="d-block w-100"
+                                    <img src="/img/banner1.svg" alt="Carousel Image" class="d-block w-100"
                                         style="max-height: 400px; object-fit: cover; border-radius: 10px;">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="/img/landing_page_2.svg" alt="Carousel Image" class="d-block w-100"
+                                    <img src="/img/banner2.svg" alt="Carousel Image" class="d-block w-100"
                                         style="max-height: 400px; object-fit: cover; border-radius: 10px;">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="/img/landing_page_3.svg" alt="Carousel Image" class="d-block w-100"
+                                    <img src="/img/banner3.svg" alt="Carousel Image" class="d-block w-100"
                                         style="max-height: 400px; object-fit: cover; border-radius: 10px;">
                                 </div>
                             </div>

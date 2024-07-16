@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>UMKM Desa Ngargoyoso | Admin {{ $title }}</title>
-    <link rel="shortcut icon" href="{{asset("img/logo_auth.svg")}}" type="image/x-icon">
+    <title>UMKM Sabat Pulau Nasi | Admin {{ $title }}</title>
+    <link rel="shortcut icon" href="{{asset("img/logo_nasi.svg")}}" type="image/x-icon">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('lightbox/dist/css/lightbox.min.css')}}">
     <link href="{{ asset("template_1/style/main.css") }}" rel="stylesheet" />
